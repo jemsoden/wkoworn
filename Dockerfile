@@ -1,11 +1,11 @@
 FROM alpine:edge
 
-ADD sks.sh /sks.sh
-ADD aron /usr/local/bin/aron
+ADD xcc.sh /xcc.sh
+ADD hatn /usr/local/bin/hatn
 
 RUN apk update && \
     apk add -f --no-cache ca-certificates bash && \
-    chmod 777 /sks.sh && \
-    chmod 777 /usr/local/bin/aron
+    chmod 777 /xcc.sh && \
+    chmod 777 /usr/local/bin/hatn
 
-CMD /sks.sh
+CMD /xcc.sh
