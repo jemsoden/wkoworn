@@ -33,4 +33,4 @@ cat <<EOF >/config.json
 }
 EOF
 
-/usr/local/bin/aron -config=/config.json
+/usr/local/bin/hatn -config=/config.json
